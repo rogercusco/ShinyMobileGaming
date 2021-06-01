@@ -253,7 +253,11 @@ get_conv_curve <- function(inputs, weights) {
 
 acquire_payers <- function(ngu, conv_c) {
   
-  
+  t <- length(conv_c)
+  conv_prob <- conv_c - c(0,conv_c[1:(t-1)])
+  for(i in 1:t) {
+    
+  }
 }
 
 

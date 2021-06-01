@@ -1,5 +1,3 @@
-setwd("/Users/rogercusco/Documents/ShinyMobileGaming")
-
 library(shiny)
 library(shinydashboard)
 library(plotly)
